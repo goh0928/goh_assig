@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Reservation</title>
+	<link rel="stylesheet" type="text/css" href="legoland.css">
+</head>
+<body>
+   <div class="header">
+		<h1>
+		  Legoland Malaysia Resort
+		</h1>
+	</div>
+<div class="container">		
+	<div class="left_side">
+		<p>Home</p>
+		<p>Legoland</p>
+		<p><a href="park.html">Parks</a></p>
+		<p><a href="activity.html">Activities</a></p>
+		<p>Reservations<a href="ReservationsForm.html"></a></p>
+	</div>
+	<div class="revervation_title">
+		<span class="red_title"><h1> Reservation at Legoland Malaysia Resorts</h1></span>
+	    <h2><span class="black">Contact Us</span></h2>
+<form onsubmit="alert('submited successful');">	    
+	 <p>
+	 	required information
+	 </p>
+	 <p>
+	<label for="firstName">
+		<span class="red_mark">*</span>
+		First name:
+	</label>
+
+	  <input type="text" required placeholder="3-12text,onlyEnglish" pattern="[a-z,A-Z],{3,12}"/>
+    </p>
+    <p>
+	<label for="LastName">
+		<span class="red_mark">*</span>
+
+		Last name:
+	</label>
+     
+	  <input type="text" required placeholder="3-12text,onlyEnglish" pattern="[a-z,A-Z],{3,12}"/>
+	  <br/>
+	 </p>
+	  <p>
+	<label for="email">
+		<span class="red_mark">*</span>
+		Email:
+	</label>
+     
+	  <input type="email" required placeholder="format must be ture"/>
+	  <br/>
+	 </p>
+	<p>
+		<label for="phone">
+			phone:
+		</label>
+		 <input type="phone" required placeholder="not necessary" pattern="[0-9],{10,11}"/>
+		 <br/>	
+	</p>
+	<p>
+	   <label for="Arrival date">
+	   	  Arrival date:
+	   </label>
+	   <input type="date" placeholder="dd/mm/yyy" pattern="[0-9],{8}"/>
+
+    </p>
+    <p>
+	   <label for="Night">
+	   	 Night:
+	   </label>
+	   <input type="text"  patter="[0-9],{1,2}"/>
+    </p>
+    <p>
+    	<label for="comments">
+    	<span class="red_mark">*</span>
+    	Comments:	
+    	</label>
+    	<input class="comments" type="text" required placeholder="[a-zA-Z0-9]"/>
+    	<br/>
+    </p>
+    <input type="submit" value="submit">
+	</div>
+</form>	 	
+ </div>
+   <div  class="baseline">
+   	<a href="index.html">gohzijang@gohzijang.com</a>
+   </div>	
+</body>
+</html>
